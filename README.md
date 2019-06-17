@@ -10,9 +10,9 @@ Small crud example using http4s, doobie, circe
 
 # Architecture
 ## Domain
-All domain related login kept here 
+All domain related code kept here 
 ## Infrastructure
-All infra related logic is kept her. 
+All infra related logic kept here. 
 * /db -> Database communication
 * /endpoints -> Http communication
 
