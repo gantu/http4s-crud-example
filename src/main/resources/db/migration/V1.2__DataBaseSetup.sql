@@ -6,6 +6,6 @@ CREATE TABLE offices (
 
 CREATE TABLE shipments (
        id BIGINT AUTO_INCREMENT PRIMARY KEY,
-       office_id BIGINT NOT NULL REFERENCES offices(id) ON DELETE CASCADE,
+       office_id INT8 NOT NULL REFERENCES offices(id) ON DELETE CASCADE,
        shipment_type VARCHAR(20) NOT NULL
        );
