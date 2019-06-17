@@ -1,11 +1,11 @@
 # http4s-crud-example
 Small crud example using http4s, doobie, circe
 # Stack
-*Http4s for http streaming
-*Circe for JSON serialization
-*Doobie fro Database access
-*Cats for FP
-*H2 Database for storing data. 
+* Http4s for http streaming
+* Circe for JSON serialization
+* Doobie fro Database access
+* Cats for FP
+* H2 Database for storing data. 
 
 
 # Architecture
