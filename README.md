@@ -21,15 +21,15 @@ To run : sbt run
 
 ## Example commands for PostOffice(GET, POST, PUT, DELETE):
 
-curl -i http://localhost:8080/offices/1
-curl -i http://localhost:8080/offices
-curl -v -H "Content-Type: application/json" -X POST http://localhost:8080/offices -d '{"zip":"123456", "name":"Baker Street"}'
-curl -v -H "Content-Type: application/json" -X PUT http://localhost:8080/huts -d '{"id":"1","zip":"123456","name":"Mountain View"}'
-curl -v -X DELETE http://localhost:8080/offices/1
+* curl -i http://localhost:8080/offices/1
+* curl -i http://localhost:8080/offices
+* curl -v -H "Content-Type: application/json" -X POST http://localhost:8080/offices -d '{"zip":"123456", "name":"Baker Street"}'
+* curl -v -H "Content-Type: application/json" -X PUT http://localhost:8080/offices -d '{"id":"1","zip":"123456","name":"Mountain View"}'
+* curl -v -X DELETE http://localhost:8080/offices/1
 
 ## Example command for Shipments(GET, POST, PUT, DELETE): 
-curl -i http://localhost:8080/shipments/1
-curl -i http://localhost:8080/shipments
-curl -v -H "Content-Type: application/json" -X POST http://localhost:8080/shipments -d '{"officeId":"1", "shipmentType":"Letter"}'
-curl -v -H "Content-Type: application/json" -X PUT http://localhost:8080/shipments -d '{"id":"1","officeId":"1","shipmentType":"Package"}'
-curl -v -X DELETE http://localhost:8080/shipments/1
+* curl -i http://localhost:8080/shipments/1
+* curl -i http://localhost:8080/shipments
+* curl -v -H "Content-Type: application/json" -X POST http://localhost:8080/shipments -d '{"officeId":"1", "shipmentType":"Letter"}'
+* curl -v -H "Content-Type: application/json" -X PUT http://localhost:8080/shipments -d '{"id":"1","officeId":"1","shipmentType":"Package"}'
+* curl -v -X DELETE http://localhost:8080/shipments/1
